@@ -11,7 +11,7 @@ void UBManifestSubsystem::Initialize(FSubsystemCollectionBase& Collection)
 {
 	Super::Initialize(Collection);
 	
-	UE_LOG(LogBombastManifest, Log, TEXT("XsollaInventory subsystem initialized"));
+	UE_LOG(LogBombastManifest, Log, TEXT("Bombast Manifest subsystem initialized"));
 }
 
 void UBManifestSubsystem::Deinitialize()
